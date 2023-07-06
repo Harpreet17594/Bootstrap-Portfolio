@@ -1,0 +1,15 @@
+.nav-style{
+     padding: 10px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 20px;
+     margin-left: 10px;
+     border-bottom: 5px solid black;
+
+}
+.border-style{
+    border-right: 5px solid black;
+}
+.font-style{
+    background-color: rgba(69, 189, 222, 0.8);
+    width: fit-content;
+}
