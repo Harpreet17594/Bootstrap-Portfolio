@@ -6,9 +6,12 @@
      border-bottom: 5px solid black;
 
 }
+/* border right properties */
 .border-right-style{
     border-right: 1px solid black;
 }
+
+/* properties for font style */
 .font-style{
     background-color: rgba(69, 189, 222, 0.8);
     width: fit-content;
@@ -16,6 +19,7 @@
     text-decoration: none;
     color: black;
 }
+/* css properties for bottom border */
 .border-bottom-style{
     border-bottom: 1px solid black;
     width: fit-content;
