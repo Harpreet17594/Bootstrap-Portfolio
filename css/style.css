@@ -6,10 +6,17 @@
      border-bottom: 5px solid black;
 
 }
-.border-style{
-    border-right: 5px solid black;
+.border-right-style{
+    border-right: 1px solid black;
 }
 .font-style{
     background-color: rgba(69, 189, 222, 0.8);
+    width: fit-content;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+.border-bottom-style{
+    border-bottom: 1px solid black;
     width: fit-content;
 }
