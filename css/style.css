@@ -47,3 +47,48 @@
 	-o-transform: translateY(-5px);
 	transform: translateY(-5px);
 }
+.hover-style:hover{
+        z-index:10;
+        width:960px;
+        height:400px;
+        opacity: 1.0;
+      }
+
+/* container code starts here */
+.container-grid
+{
+    display: grid;
+    min-height: 450px;
+    grid-template-columns: 29% 33.3% 33.3% ;
+    grid-template-rows: 100%;
+    grid-template-areas: "inside-container1 inside-container2 inside-container3";
+}
+.inside-container1{
+    grid-area: inside-container1;
+}
+.inside-container2{
+    grid-area: inside-container2;
+}
+.inside-container3{
+    grid-area: inside-container3;
+}
+
+
+
+/* MEDIA QUERIES  for grid */
+
+@media screen and (max-width:768px) {
+
+    .container-grid{
+        display: grid;
+    min-height: 850px;
+    grid-template-columns: 100% ;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    grid-template-areas: "inside-container1"
+                        "inside-container2"
+                        "inside-container3";
+
+    }
+
+
+}
