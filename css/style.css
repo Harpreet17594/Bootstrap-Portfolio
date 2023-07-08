@@ -58,9 +58,10 @@
 .container-grid
 {
     display: grid;
-    min-height: 450px;
+    min-height: 350px;
     grid-template-columns: 29% 33.3% 33.3% ;
     grid-template-rows: 100%;
+    grid-gap: 5px;
     grid-template-areas: "inside-container1 inside-container2 inside-container3";
 }
 .inside-container1{
@@ -81,10 +82,10 @@
 
     .container-grid{
         display: grid;
-    min-height: 650px;
+    min-height: 550px;
     grid-template-columns: 100% ;
     grid-template-rows: 50% 50%;
-    grid-gap: 10px;
+    grid-gap: 5px;
     grid-template-areas:
                         "inside-container2"
                         "inside-container3";
