@@ -5,8 +5,10 @@ This design is a bootstrap design i have recreated my-portfolio design with boot
 
 ## Link to github repository
     https://github.com/Harpreet17594/Bootstrap-Portfolio
-## Link to deployed application
+## Link to deployed application previous portfolio
     https://harpreet17594.github.io/My-Portfolio/
+## Link to Deployed bootstrap application
+    https://harpreet17594.github.io/Bootstrap-Portfolio/    
 
 ***
 

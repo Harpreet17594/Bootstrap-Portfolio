@@ -81,10 +81,11 @@
 
     .container-grid{
         display: grid;
-    min-height: 850px;
+    min-height: 650px;
     grid-template-columns: 100% ;
-    grid-template-rows: 33.3% 33.3% 33.3%;
-    grid-template-areas: "inside-container1"
+    grid-template-rows: 50% 50%;
+    grid-gap: 10px;
+    grid-template-areas:
                         "inside-container2"
                         "inside-container3";
 
